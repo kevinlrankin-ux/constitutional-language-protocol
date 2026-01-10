@@ -75,6 +75,15 @@ releases/CLP_v0.1.pdf
 
 ---
 
+## Optional Modules
+
+CLP modules live in:
+- `modules/`
+
+These are optional CLP ecosystem artifacts published with the same non-binding posture.
+
+---
+
 ## Clause 0 — Foundational Layer Declaration (Non-Removable)
 
 CLP is published as semantic infrastructure, not as an authority, policy, or alignment layer.
