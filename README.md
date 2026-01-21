@@ -1,109 +1,19 @@
-# Constitutional Language Protocol (CLP)
+﻿# Constitutional Language Protocol (CLP)
 
-The Constitutional Language Protocol (CLP) is open semantic infrastructure for describing
-authority, constraints, and failure conditions in complex systems without prescribing
-outcomes, enforcing norms, or asserting legitimacy.
+CLP is a formal, deterministic language for expressing governance structures, constraints, and execution boundaries.
 
-CLP enables systems, institutions, and observers to make structural assumptions explicit
-and comparable while remaining non-binding and non-normative.
+## Start Here
 
----
+- **Non-technical overview:**  
+  See [docs/overview.md](docs/overview.md) for a high-level, narrative introduction.
 
-## What CLP Is
+- **Authoritative specification:**  
+  All normative and executable definitions live in the [SPEC/](SPEC/) directory.
 
-- A descriptive protocol for making authority, constraint, and failure legible
-- Non-binding and non-enforcing by design
-- Applicable to AI and non-AI systems
-- Designed for analysis, comparison, and visibility, not control
-- Intended to be adopted, extended, ignored, or rejected
+## Authority & Lineage
+
+- Protocol provenance and legitimacy are defined in [PROVENANCE.md](PROVENANCE.md).
+- This repository treats the SPEC as canonical; documentation is descriptive only.
 
 ---
-
-## What CLP Is Not
-
-- Not a constitution
-- Not a governance framework
-- Not a moral or ethical system
-- Not a policy engine
-- Not an alignment mechanism
-- Not an optimization or decision-making tool
-
-CLP makes structures visible.  
-It does not decide what should happen.
-
----
-
-## Minimal CLP Block (Illustrative)
-Authority:
-Declared: Operations Committee
-Exercised: Automated Scheduler
-Accountable: Funding Entity
-
-Constraints:
-Budget: Fixed
-Time: Variable
-Maintenance: Deferred
-
-Failure Visibility:
-Silent failure possible if scheduler overrides maintenance windows
-
-This block is descriptive only.  
-It does not assert correctness or legitimacy.
-
----
-
-## Status
-
-- Version: v0.1
-- Stability: Experimental
-- Binding Force: None
-
-CLP may change, fork, or disappear.  
-No guarantees are made.
-
----
-
-## Canonical Specification
-
-The canonical human-readable specification is located at:
-
-SPEC/CLP_v0.1.md
-
-A PDF snapshot suitable for citation and archival use is provided in:
-
-releases/CLP_v0.1.pdf
-
----
-
-## Optional Modules
-
-CLP modules live in:
-- `modules/`
-
-These are optional CLP ecosystem artifacts published with the same non-binding posture.
-
----
-
-## Clause 0 — Foundational Layer Declaration (Non-Removable)
-
-CLP is published as semantic infrastructure, not as an authority, policy, or alignment layer.
-
-Clause 0 is non-removable.  
-Any future version, fork, or derivative work must preserve this declaration verbatim.
-
----
-
-## Provenance
-
-Published as open public infrastructure.
-
-Authorship and publication details are recorded in PROVENANCE.md.
-
----
-
-## License
-
-This project is released under the terms specified in LICENSE.
-
-Reuse, extension, and redistribution are explicitly permitted within those terms.
-
+This README is a navigation surface, not a specification.
